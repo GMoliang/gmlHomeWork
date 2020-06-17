@@ -29,8 +29,25 @@ public class HomeWork {
             System.out.println();
         }
     }
+    //100以内所有质数的和
+    public static boolean check(int n){
+        for(int i=2;i*i<=n;i++)
+            if(n%i==0)
+                return false;
+        return true;
+    }
+    public static void prime_sum(){
+        int sum=0;
+        for(int i=2;i<=100;i++){
+            if(check(i)){
+                sum+=i;
+            }
+        }
+        System.out.println(sum);
+    }
     public static void main(String[] args) {
         jiujiu();
         dengyao();
+        prime_sum();
     }
 }
