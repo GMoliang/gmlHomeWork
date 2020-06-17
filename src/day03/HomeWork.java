@@ -7,7 +7,7 @@ package day03;
  * @create: 2020-06-17 08:41
  **/
 public class HomeWork {
-    //打印舅舅乘法表
+    //打印九九乘法表
 
     //打印等腰三角形
 
